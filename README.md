@@ -15,19 +15,19 @@ fisher gretel/terminal_notifier
 ## Usage
 
 ```fish
-emit send_notification 'Hey, you!' '🌊 🌊 🌊' 'Take a break and go surfing!' Submarine
+emit send_notification 'Hey, you!' '🌊 🌊 🌊' 'Take a break and go surfing!'
 ```
 
-If the notification is clicked a *URL* can be openend:
+Of course, values can be evaluated at emission:
 
 ```fish
-emit send_notification 'Remember to get out!' '⏲ ⏲ ⏲ ⏲ ⏲' (date) Glass https://en.wikipedia.org/wiki/Wilderness
+emit send_notification 'Remember to get out!' '⏲ ⏲ ⏲ ⏲ ⏲' (date)
 ```
 
-By default, existing screen notifications will be replaced. To keep them on-screen but change the content only add a random value at position 6:
+By default, the *Submarine* sound will be used. To change that add an argument at position 4:
 
 ```fish
-emit send_notification 'Very Important' 'Code fish not eat!' 'Thank you!' Glass http://www.greenpeace.org/international/en/campaigns/oceans/which-fish-can-I-eat/ (random)
+emit send_notification 'Very Important' 'Code fish not eat!' 'Thank you!' Glass
 ```
 
 [slack-link]: https://fisherman-wharf.herokuapp.com/
