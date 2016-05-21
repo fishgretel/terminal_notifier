@@ -7,7 +7,7 @@ function --on-event send_notification send_notification -d "Send desktop notific
   set -q argv[5]; or set argv[5] ''
   set -q argv[6]; or set argv[6] ''
   if command --search terminal-notifier >/dev/null
-    command terminal-notifier -title "$argv[1]" -subtitle "$argv[2]" -message "$argv[3]" -sound "$argv[4]" -open "$argv[5]" -group "$argv[6]" 
+    command terminal-notifier -title "$argv[1]" -subtitle "$argv[2]" -message "$argv[3]" -sound "$argv[4]" -open "$argv[5]" -group "$argv[6]" 2>/dev/null
   else
     set_color -o yellow; echo "unable to call terminal-notifier!"; set_color normal
     return 1
