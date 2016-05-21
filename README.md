@@ -2,7 +2,7 @@
 
 # terminal_notifier
 
-Send desktop notifications using [`terminal-notifier`](https://github.com/julienXX/terminal-notifier).
+Send *OS X* desktop notifications using [`terminal-notifier`](https://github.com/julienXX/terminal-notifier).
 
 ## Install
 
