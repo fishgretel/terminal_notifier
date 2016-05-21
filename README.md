@@ -2,7 +2,7 @@
 
 # terminal_notifier
 
-Send desktop notifications using [`terminal_notifier`](https://github.com/julienXX/terminal_notifier).
+Send desktop notifications using [`terminal-notifier`](https://github.com/julienXX/terminal-notifier).
 
 ## Install
 
