@@ -14,7 +14,7 @@ fisher gretel/terminal_notifier
 
 ## Usage
 
-While `send_notification` can be called as a function it is recommended to `emit` [events](http://fishshell.com/docs/current/#event):
+While `__send_notification` can be called as a function it is recommended to `emit` [events](http://fishshell.com/docs/current/#event):
 
 ```fish
 emit send_notification 'Hey, you!' '🌊 🌊 🌊' 'Take a break and go surfing!'
