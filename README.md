@@ -9,7 +9,7 @@ Send *OS X* desktop notifications from *Fish* using [`terminal-notifier`](https:
 With [fisherman]
 
 ```
-fisher gretel/terminal_notifier
+fisher fishgretel/terminal_notifier
 ```
 
 ## Usage
