@@ -1,4 +1,4 @@
-function --on-event send_notification __send_notification -d "Send desktop notifications using terminal-notifier"
+function __send_notification --on-event send_notification -d "Send desktop notifications using terminal-notifier"
     # ensure defaults
     set -q argv[1]; or set argv[1] 'Fish Shell'
     set -q argv[2]; or set argv[2] '🐠 🐡 🐟'
